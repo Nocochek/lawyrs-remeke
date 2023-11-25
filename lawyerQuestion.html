@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ask a lawyer a question</title>
+    <link rel="stylesheet" href="css/lawyer a question.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,400;1,600;1,700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="header-line">
+            <div class="container">
+                <div class="header-line-content">
+                    <div class="header-line-left">
+                        <img class="burger" src="icon/menu.svg">
+                        <a href="index.html"><img class="logo" src="img/logo.svg" alt="logo"></a>
+                        <div class="input-content">
+                            <input class="input-header" type="text" placeholder="Я хочу найти...">
+                            <img class="search" src="img/search.svg" alt="">
+
+                        </div>
+                        <!-- 390px -->
+                        <div class="svg-cont">
+                            <svg class="seargh-header" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                viewBox="0 0 24 24" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M16.4697 16.4697C16.7626 16.1768 17.2374 16.1768 17.5303 16.4697L21.5303 20.4697C21.8232 20.7626 21.8232 21.2374 21.5303 21.5303C21.2374 21.8232 20.7626 21.8232 20.4697 21.5303L16.4697 17.5303C16.1768 17.2374 16.1768 16.7626 16.4697 16.4697Z"
+                                    fill="#33836E" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M11 3.75C6.99594 3.75 3.75 6.99594 3.75 11C3.75 15.0041 6.99594 18.25 11 18.25C13.0057 18.25 14.82 17.4365 16.1333 16.1197C17.4421 14.8074 18.25 12.9988 18.25 11C18.25 6.99594 15.0041 3.75 11 3.75ZM2.25 11C2.25 6.16751 6.16751 2.25 11 2.25C15.8325 2.25 19.75 6.16751 19.75 11C19.75 13.4118 18.7732 15.597 17.1954 17.179C15.6121 18.7664 13.4202 19.75 11 19.75C6.16751 19.75 2.25 15.8325 2.25 11Z"
+                                    fill="#33836E" />
+                            </svg>
+                            <svg  class="seargh-header2 profile" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                viewBox="0 0 24 24" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M12 12.75C8.54822 12.75 5.75 15.5482 5.75 19V20C5.75 20.4142 5.41421 20.75 5 20.75C4.58579 20.75 4.25 20.4142 4.25 20V19C4.25 14.7198 7.71979 11.25 12 11.25C16.2802 11.25 19.75 14.7198 19.75 19V20C19.75 20.4142 19.4142 20.75 19 20.75C18.5858 20.75 18.25 20.4142 18.25 20V19C18.25 15.5482 15.4518 12.75 12 12.75Z"
+                                    fill="#33836E" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M12 4.75C10.2051 4.75 8.75 6.20507 8.75 8C8.75 9.79493 10.2051 11.25 12 11.25C13.7949 11.25 15.25 9.79493 15.25 8C15.25 6.20507 13.7949 4.75 12 4.75ZM7.25 8C7.25 5.37665 9.37665 3.25 12 3.25C14.6234 3.25 16.75 5.37665 16.75 8C16.75 10.6234 14.6234 12.75 12 12.75C9.37665 12.75 7.25 10.6234 7.25 8Z"
+                                    fill="#33836E" />
+                            </svg>
+                        </div>
+
+                        <div class="header-line-right">
+                            <div class="header-line-item">
+                                <img src="img/telegram (1).svg" alt="">
+                                <a href="#" class="header-line-item__text">Telegram</a>
+                            </div>
+                            <div class="header-line-item">
+                                <img class="phone-img" src="img/phone (1).svg" alt="">
+                                <a href="#" class="header-line-item__text1">Заказать звонок</a>
+                            </div>
+                            <div class="header-text-right">
+                                <p class="title-phone">8 800 302-92-70</p>
+                                <a href="order-call.html" class="supTitle-phone">Горячая линия 24/7</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <div class="container">
+                <div class="header__content">
+
+                    <button class="header-btn">
+                        <img class="qustion-img" src="img/question.svg" alt="">
+                        Задать вопрос
+                    </button>
+                    <div class="header-drop item-hidden">
+                        <nav class="nav anim">
+                            <ul>
+                                <li>
+                                    <a class="nav-link_header  " href="hot-line.html">Консультация по телефону</a>
+                                </li>
+                                <li>
+                                    <a class="nav-link_header " href="">Отзывы</a>
+                                </li>
+                                <li>
+                                    <a class="nav-link_header active " href="lawyerQuestion.html">Вопросы</a>
+                                </li>
+                                <li>
+                                    <a class="nav-link_header " href="">Юристы</a>
+                                </li>
+                                <li>
+                                    <a class="nav-link_header " href="">Статьи</a>
+                                </li>
+                                <li>
+                                    <a class="nav-link_header " href="">Контакты</a>
+                                </li>
+
+                                <li>
+                                    <p class="nav-link_header profile " >Вход / Регистрация</p>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="profile-menu hidden ">
+            <div class="profile-menu-content">
+                <div class="profile-menu-header">
+                    <p>Вход</p>
+                    <button class="button">
+                        <span class="X"></span>
+                        <span class="Y"></span>
+                        <div class="close">Close</div>
+                      </button>
+                </div>
+                <div class="profile-menu-body">
+                    <input class="profile-menu-input" placeholder="email" type="email">
+                    <input class="profile-menu-input" placeholder="пароль" type="email">
+                    <div class="container2">
+                        <input type="checkbox" id="cbx2" style="display: none;">
+                        <label for="cbx2" class="check">
+                            <svg width="18px" height="18px" viewBox="0 0 18 18">
+                                <path d="M 1 9 L 1 9 c 0 -5 3 -8 8 -8 L 9 1 C 14 1 17 5 17 9 L 17 9 c 0 4 -4 8 -8 8 L 9 17 C 5 17 1 14 1 9 L 1 9 Z"></path>
+                                <polyline points="1 9 7 14 15 4"></polyline>
+                            </svg>
+                        </label>
+                        <p>Запомнить меня</p>
+                    </div>
+                    <div class="profile-menu-footer">
+                       <div class="profile-footer-cont">
+                        <button class="profile-menu-btn" >Войти</button>
+                        <p>ИЛИ</p>
+                        <button class="profile-menu-btn black" >Зарегистрироваться</button>
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="intro">
+        <div class="container">
+            <p class="first-text">Главная / Вопросы / Новый вопрос</p>
+
+
+            <div class="intro-bar-content">
+                <div class="bar-column">
+                    <div class="intro-bar">
+                        <h2 class="intro-bar-title">Задайте вопрос юристу онлайн</h2>
+                        <p class="intro-bar-text">Опишите вашу ситуацию подробнее, чтобы юрист мог более детально в ней
+                            сориентироваться и дать на него квалифицированный ответ</p>
+                        <div class="incontainer">
+                            <label class="theme-survey">Тема вопроса</label>
+                            <input class="input" placeholder="Например, как оспорить наследство" type="text">
+                        </div>
+                        <div class="incontainer">
+                            <label class="theme-survey">Суть вопроса</label>
+                            <textarea class="textarea" placeholder="Подробный текст вопроса"></textarea>
+                        </div>
+
+
+                        <div class="input-cont ">
+                            <div class="oneBlock">
+                                <label class="oneBlock-num">Номер телефона</label>
+                                <input class="oneBlock-num-input" placeholder="+7 (___)___-__-__" type="tel">
+                            </div>
+                            <div class="intro-twoBlock">
+                                <label class="oneBlock-num">Как к вам обращаться</label>
+                                <input class="oneBlock-num-input" placeholder="Ваше имя" type="tel">
+
+                            </div>
+                        </div>
+
+                        <div class="intro-bar-footer">
+                            <button class="intro-barBtn">
+                                <p>Задать вопрос</p>
+                            </button>
+                            <p class="intro-bar-footer-text">Отправляя вопрос, вы соглашаетесь с условиями <a
+                                    href="">Пользовательского соглашения</a></p>
+                        </div>
+
+
+
+                    </div>
+                    <div class="doot-text">
+                        <p>Высокий темп жизни требует максимальной мобильности, умения незамедлительно принимать
+                            правильные
+                            решения. Но без профессиональной помощи такое не всегда реально. В большей степени это
+                            касается
+                            юридических вопросов. Если вы столкнулись с проблемой, требующей участия специалистов, на
+                            нашем
+                            сайте можно бесплатно задать вопрос юристу.</p>
+                        <p class="doot-text-text">Это намного удобнее, чем личная встреча в офисе. И необходимую
+                            информацию получите в
+                            кратчайшие сроки. Сервис «100 Юристов» работает круглосуточно и бесплатно для тех, кто не
+                            знает, как поступить в той или иной ситуации.</p>
+                    </div>
+                </div>
+
+                <div class="intro-bar_const">
+                    <div class="head-lat-const">
+
+                        <h3 class="intro-bar_const-title">Последние консультации</h3>
+                    </div>
+
+                    <div class="last__consultation-content">
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="Feedback__from-our-customers-bottom">
+                                        <div class="item-container">
+                                            <div class="item-last__consultation  ">
+
+                                                <h5 class="supTitle_last__consultation">10 минут назад</h5>
+                                                <h3 class="last__consultation-title__in-item">Материнский капитал</h3>
+                                                <p class="last__consultation-text">Добрый день дом купленный на
+                                                    материнский
+                                                    капитал
+                                                    но он сгорел
+                                                    при ЧС по курганской области</p>
+                                                <button class="button_last__consultation top">2 ответа</button>
+                                            </div>
+
+                                            <div class="item-last__consultation item-hidden  ">
+
+                                                <h5 class="supTitle_last__consultation">10 минут назад</h5>
+                                                <h3 class="last__consultation-title__in-item">Материнский капитал</h3>
+                                                <p class="last__consultation-text">Добрый день дом купленный на
+                                                    материнский
+                                                    капитал
+                                                    но он сгорел
+                                                    при ЧС по курганской области</p>
+                                                <button class="button_last__consultation top">2 ответа</button>
+                                            </div>
+
+                                            <div class="item-last__consultation item-hidden  ">
+
+                                                <h5 class="supTitle_last__consultation">10 минут назад</h5>
+                                                <h3 class="last__consultation-title__in-item">Материнский капитал</h3>
+                                                <p class="last__consultation-text">Добрый день дом купленный на
+                                                    материнский
+                                                    капитал
+                                                    но он сгорел
+                                                    при ЧС по курганской области</p>
+                                                <button class="button_last__consultation top">2 ответа</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="Feedback__from-our-customers-bottom">
+                                        <div class="item-container">
+                                            <div class="item-last__consultation  ">
+
+                                                <h5 class="supTitle_last__consultation">10 минут назад</h5>
+                                                <h3 class="last__consultation-title__in-item">Материнский капитал</h3>
+                                                <p class="last__consultation-text">Добрый день дом купленный на
+                                                    материнский
+                                                    капитал
+                                                    но он сгорел
+                                                    при ЧС по курганской области</p>
+                                                <button class="button_last__consultation top">2 ответа</button>
+                                            </div>
+
+                                            <div class="item-last__consultation item-hidden   ">
+
+                                                <h5 class="supTitle_last__consultation">10 минут назад</h5>
+                                                <h3 class="last__consultation-title__in-item">Материнский капитал</h3>
+                                                <p class="last__consultation-text">Добрый день дом купленный на
+                                                    материнский
+                                                    капитал
+                                                    но он сгорел
+                                                    при ЧС по курганской области</p>
+                                                <button class="button_last__consultation top">2 ответа</button>
+                                            </div>
+
+                                            <div class="item-last__consultation item-hidden   ">
+
+                                                <h5 class="supTitle_last__consultation">10 минут назад</h5>
+                                                <h3 class="last__consultation-title__in-item">Материнский капитал</h3>
+                                                <p class="last__consultation-text">Добрый день дом купленный на
+                                                    материнский
+                                                    капитал
+                                                    но он сгорел
+                                                    при ЧС по курганской области</p>
+                                                <button class="button_last__consultation top">2 ответа</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="Feedback__from-our-customers-bottom">
+                                        <div class="item-container">
+                                            <div class="item-last__consultation  ">
+
+                                                <h5 class="supTitle_last__consultation">10 минут назад</h5>
+                                                <h3 class="last__consultation-title__in-item">Материнский капитал</h3>
+                                                <p class="last__consultation-text">Добрый день дом купленный на
+                                                    материнский
+                                                    капитал
+                                                    но он сгорел
+                                                    при ЧС по курганской области</p>
+                                                <button class="button_last__consultation top">2 ответа</button>
+                                            </div>
+
+                                            <div class="item-last__consultation item-hidden   ">
+
+                                                <h5 class="supTitle_last__consultation">10 минут назад</h5>
+                                                <h3 class="last__consultation-title__in-item">Материнский капитал</h3>
+                                                <p class="last__consultation-text">Добрый день дом купленный на
+                                                    материнский
+                                                    капитал
+                                                    но он сгорел
+                                                    при ЧС по курганской области</p>
+                                                <button class="button_last__consultation top">2 ответа</button>
+                                            </div>
+
+                                            <div class="item-last__consultation  item-hidden  ">
+
+                                                <h5 class="supTitle_last__consultation">10 минут назад</h5>
+                                                <h3 class="last__consultation-title__in-item">Материнский капитал</h3>
+                                                <p class="last__consultation-text">Добрый день дом купленный на
+                                                    материнский
+                                                    капитал
+                                                    но он сгорел
+                                                    при ЧС по курганской области</p>
+                                                <button class="button_last__consultation top">2 ответа</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+    </section>
+
+
+    <section class="how-this__work">
+        <div class="container">
+            <h3 class="nnblock__title">Как это работает?</h3>
+            <div class="how-this-content">
+                <div class="how-this-item  ">
+                    <img src="icon/question-green.svg" alt="">
+                    <h4 class="how-this-item-title">Задайте свой вопрос</h4>
+                    <div class="number">
+                        1
+                    </div>
+                    <p class="how-this-item-text">Мы получаем более 1500 обращений<br> каждый день</p>
+                    <a class="question" href="#">Задать вопрос</a>
+                </div>
+                <div class="how-this-item anim">
+                    <img src="icon/conplete.svg" alt="">
+                    <h4 class="how-this-item-title">Получите ответы</h4>
+                    <div class="number">
+                        2
+                    </div>
+                    <p class="how-this-item-text">На обращения круглосуточно отвечают<br> юристы со всей России.
+                        Среднее время<br> ответа - 15 минут</p>
+                </div>
+                <div class="how-this-item anim">
+                    <img src="img/lauke.png" alt="">
+                    <h4 class="how-this-item-title">Проблема решена</h4>
+                    <div class="number">
+                        3
+                    </div>
+                    <p class="how-this-item-text">95,4% клиентов остаются полностью<br> довольны ответами и
+                        рекомендуют нас<br> друзьям</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bar__info">
+        <div class="container">
+            <div class="bar-info__content">
+                <div class="bar__info-OneBlock">
+                    <img class="bar__info-img" src="img/woman-working-call-center 1.png" alt="">
+                    <div class="circl-bar"></div>
+                </div>
+                <div class="bar__info-twoBlock">
+                    <h2 class="bar__info-title">Или закажите бесплатный звонок</h2>
+                    <p class="bar__info-supTitle">На вопросы отвечают юристы со всей России. Среднее время ответа:15
+                        минут</p>
+                    <div class="bar__info-flex__content">
+                        <div class="bar__info-oneBlock-num">
+                            <p class="bar__info-num-text">Номер телефона</p>
+                            <p class="bar__info-num">+7 963 335-87-52</p>
+                        </div>
+                        <div class="bar__info-TwoBlock">
+                            <a class="btn-cont-text">Заказать звонок</p>
+                        </div>
+                    </div>
+                    <p class="bar__info-link">Отправляя вопрос, вы соглашаетесь с условиями <a class="bar__info-link a"
+                            href="">Пользовательского соглашения</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="info-companu">
+        <div class="container">
+            <h2 class="search__title">Преимущества бесплатной юридической помощи от «100 Юристов»</h2>
+            <p class="supTitle__info-companu">Онлайн-консультация на нашей платформе обладает множеством
+                преимуществ:</p>
+            <div data-aos="fade-up" class="info-companu-one__content">
+                <div class="info-companu-one__item">
+                    <div class="circle-img-companu">
+                        <img src="icon/Vector (Stroke).svg" alt="">
+                    </div>
+                    <h3 class="item-companu-title">Оперативность</h3>
+                    <p class="item-companu-text">«100 Юристов» - площадка, на которой получить ответ можно в считанные
+                        минуты. Никаких длительных ожиданий и высоких гонораров за скорость, как делают многие
+                        современные компании</p>
+                </div>
+
+                <div data-aos="fade-up" class="info-companu-one__item ">
+                    <div class="circle-img-companu">
+                        <img src="icon/piggy-bank.svg" alt="">
+                    </div>
+                    <h3 class="item-companu-title">Экономическая выгода</h3>
+                    <p class="item-companu-text">Площадка не предусматривает оплаты. Чтобы задать вопрос, не нужно
+                        никуда переводить деньги. Если впоследствии решите продолжить сотрудничество с выбранным юристом
+                        или адвокатом, это уже будет платно. Но стоимость намного приятнее и доступна для каждого
+                        обратившегося</p>
+                </div>
+            </div>
+
+
+
+            <div data-aos="fade-up" class="info-companu-one__content">
+                <div class="info-companu-two__item">
+                    <div class="circle-img-companu">
+                        <img class="img-comp" src="icon/thumbs-up.svg" alt="">
+                    </div>
+                    <h3 class="item-companu-title">Универсальность</h3>
+                    <p class="item-companu-text">Получить ответ возможно на вопрос в любой правовой области.
+                        Консультируем даже по уголовным делам
+                    </p>
+                </div>
+
+                <div data-aos="fade-up" class="info-companu-two__item">
+                    <div class="circle-img-companu">
+                        <img class="img-comp" src="icon/lock1.png" alt="">
+                    </div>
+                    <h3 class="item-companu-title">Анонимность</h3>
+                    <p class="item-companu-text">Для многих клиентов вопрос сохранения личных, персональных данных
+                        особенно важен. Мы учитываем их пожелания и во время беседы гарантируем конфиденциальность. Не
+                        важно, в какое время суток вы обратились за помощью. Сохраним анонимность</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+   
+
+
+
+    <section class="givInformation">
+        <div class="container">
+            <h3 class="givInformation__title">Правовые сферы по которым мы консультируем</h3>
+            <p class="givInformation-text ">Юристы нашей площадки дадут информативные и понятные ответы на вопросы в
+                любой из
+                перечисленных сфер. Таким образом вы не только получите профессиональную поддержку, но и сможете
+                самостоятельно разобраться в особенностях юридического законодательства.
+                Проходите регистрацию на сайте «100 Юристов», чтобы быть в курсе событий. С нами вы всегда будете
+                чувствовать себя под надежной защитой</p>
+            <div data-aos="fade-up" class="givInformation-content">
+
+
+                <div class="givInformation__item ">
+                    <div class="item-content">
+                        <div class="one-item-inf">
+                            <img class="givInformation-img" src="icon/large-suitcase.jpg" alt="">
+                        </div>
+                        <div class="two-item-inf">
+                            <h3 class="givInformation-item-item">Трудовое право</h3>
+                        </div>
+                    </div>
+                    <p class="givInformation-item-text anim">Важнейшая отрасль, регулирующая рабочие отношения и ряд
+                        общественных отношений, непосредственным образом связанных с трудовыми. Сюда входит
+                        взаимодействие работников с работодателем или контакты между несколькими профессиональными
+                        коллективами. Несмотря на наличие Трудового Комплекса, в этой сфере все чаще случаются конфликты
+                        и споры. Нередки случаи, когда персонал необоснованно штрафуют или лишают премии/заработной
+                        платы. Также в последние годы происходит огромное количество незаконных увольнений. Ситуации
+                        разные, но решение одно – обращение к специалистам за разъяснением имеющихся прав и т.д. Задайте
+                        вопрос специалисту в этой сфере. И получите грамотный ответ</p>
+                </div>
+
+                <div class="givInformation__item ">
+                    <div class="item-content">
+                        <div class="one-item-inf">
+                            <img class="givInformation-img" src="img/pin-alt.png" alt="">
+                        </div>
+                        <div class="two-item-inf">
+                            <h3 class="givInformation-item-item">Земельное право</h3>
+                        </div>
+                    </div>
+                    <p class="givInformation-item-text">Самостоятельная отрасль, регулирующая отношения по использованию
+                        и охране земельных ресурсов. Сегодня земельные участки, как объекты недвижимости, представляют
+                        огромный интерес для людей, которые заботятся о собственном материальном благополучии. Они же
+                        являются и предметов серьезных споров. Диапазон ситуаций обширный, начиная с признания права
+                        собственности, вступления в наследство до разнообразных разделов недвижимого имущества,
+                        например, при разводе. Если вы столкнулись с подобной проблемой, связанной с участком, без
+                        профессиональной поддержки точно не обойтись. Особенно если она нужна срочно. Достаточно
+                        написать свой вопрос на сайте, без регистрации. Мы в течение нескольких минут онлайн ответим.
+                    </p>
+                </div>
+            </div>
+
+
+            <div data-aos="fade-up" class="givInformation-content">
+                <div class="givInformation__item ">
+                    <div class="item-content">
+                        <div class="one-item-inf">
+                            <img class="givInformation-img" src="icon-2/building.svg" alt="">
+                        </div>
+                        <div class="two-item-inf">
+                            <h3 class="givInformation-item-item">Жилищное право</h3>
+                        </div>
+                    </div>
+                    <p class="givInformation-item-text">Это собирательная категория, включающая гражданские, семейные,
+                        финансовые, административные и иные отношения, регулируемые разными законодательными отраслями.
+                        Жилищные правоотношения возникают по следующим поводам: осуществление права владения,
+                        пользования помещениями, отнесение помещений к числу жилых, ремонт жилищного фонда, учет,
+                        внесение платы за коммунальные услуги и т.д. Спорных ситуаций и в этом направлении немало. Часто
+                        они возникают между членами семей, гражданами и застройщиками, покупателями и риелторами.
+                        Разбираться в них собственными силами – не лучшее решение. Рекомендуем перед тем, как
+                        действовать, задать вопрос нашим специалистам и получить оперативный, подробный ответ.</p>
+                </div>
+                <div class="givInformation__item ">
+                    <div class="item-content">
+                        <div class="one-item-inf">
+                            <img class="givInformation-img" src="icon/group.jpg" alt="">
+                        </div>
+                        <div class="two-item-inf">
+                            <h3 class="givInformation-item-item">Семейное право</h3>
+                        </div>
+                    </div>
+                    <p class="givInformation-item-text">Регулирует особую отрасль человеческих взаимоотношений, имеющих
+                        глубоко личностный характер: супружество, материнство, отцовство, родительские права и т.д.
+                        Самые распространенные семейные споры: разводы, раздел имущества, ограничение и лишение
+                        родительских прав. Многие из перечисленных и другие ситуации неизменно заканчиваются в суде.
+                        Если вы раньше с подобным не сталкивались, и не знаете, как правильно поступить, воспользуйтесь
+                        помощью наших юристов.</p>
+                </div>
+            </div>
+            <div data-aos="fade-up" class="givInformation-content ">
+                <div class="givInformation__item ">
+                    <div class="item-content">
+                        <div class="one-item-inf">
+                            <img class="givInformation-img" src="img/shield-check.svg" alt="">
+                        </div>
+                        <div class="two-item-inf">
+                            <h3 class="givInformation-item-item">Страховое право</h3>
+                        </div>
+                    </div>
+                    <p class="givInformation-item-text2">Страхование – обширная сфера деятельности, возникшая в связи с
+                        необходимостью юридического закрепления отношений между страхователем и страховщиком. Несмотря
+                        на то, что данное направление права строго регламентировано, не обходится и без неприятных
+                        ситуаций. Чаще всего виновником становится страховая компания, которая: отказала в выплате
+                        компенсации, незаконно занижает размер страховой выплаты, задерживает оплату по страховому
+                        полису. В этом случае пострадавшее лицо вполне может попробовать самостоятельно урегулировать
+                        проблему. Но практика показала, что для этого нужно серьезно подготовиться и даже заручиться
+                        поддержкой юриста или адвоката. Наши специалисты готовы проконсультировать в формате
+                        «вопрос-ответ», а также оказать в дальнейшем реальную помощь, например, представляя интересы
+                        страхователя в суде</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-item">
+                    <img class="el" src="img/logo.svg " alt="">
+                    <p class="num-foot "><strong>8 800 302-92-70</strong></p>
+                    <p class="num-foo el">Бесплатный звонок юристу 24/7</p>
+                    <a class="email-foot el" href="#">admin@100yuristov.com</a>
+                    <div class="footer-block ">
+                        <img src="img/pin-alt.png " alt="">
+                        <p class="img-text ">Москва, Шлюзовая<br> набережная д. 6 стр. 4</p>
+                    </div>
+                </div>
+                <div class="footer-item">
+                    <a href="" class="el2">О проекте</a>
+                    <a href="" class="el2">Контакты</a>
+                    <a href="" class="el2">Новости</a>
+                    <a href="" class="el2">Статьи</a>
+                    <a href="" class="el2">Архив</a>
+                </div>
+
+                <div class="footer-item">
+                    <a href="" class="el2">Наши юристы</a>
+                    <a href="order-call.html" class="el2">Горячая линия</a>
+                    <a href="hot-line.html" class="el2">Консультация по телефону</a>
+                    <a href="lawyerQuestion.html" class="el2">Задать вопрос юристу</a>
+                    <a href="" class="el2">Юридические заявки</a>
+                </div>
+                <div class="footer-item">
+                    <p class="el2">Вебмастерам</p>
+                    <p class="el2">Регистрация на сайте</p>
+                    <p class="el2">Пользовательское соглашение</p>
+                    <img class="frame-foot" src="img/Frame 1089.png" alt="">
+
+
+                    <div class="right-Feedback__from-our-customers fot">
+                        <div class="one-row__cont">
+                            <div class="central-cont">
+                                <img src="icon/yandex.png" alt="">
+                                <b>4,8</b>
+                            </div>
+                            <div class="star-cont">
+                                <img src="icon/star.svg" alt="">
+                                <img src="icon/star.svg" alt="">
+                                <img src="icon/star.svg" alt="">
+                                <img src="icon/star.svg" alt="">
+                                <img src="icon/star.svg" alt="">
+                            </div>
+                        </div>
+                        <p class="rating-organization">Рейтинг организации в Яндексе</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {});
+        AOS.init();
+        </script>
+        <script src="js/burger.js"></script>
+
+
+</body>
+
+</html>

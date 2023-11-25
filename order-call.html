@@ -1,0 +1,1527 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>order a call</title>
+    <link rel="stylesheet" href="css/orderCall.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,400;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-line">
+            <div class="container">
+                <div class="header-line-content">
+                    <div class="header-line-left">
+                        <img class="burger" src="icon/menu.svg">
+                        <a href="index.html">
+                            <img class="logo" src="img/logo.svg" alt="logo">
+                        </a>
+                        <div class="input-content">
+                            <input class="input" type="text" placeholder="Я хочу найти...">
+                            <img class="search" src="img/search.svg" alt="">
+
+                        </div>
+                        <!-- 390px -->
+                        <div class="svg-cont">
+                            <svg class="seargh-header" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                viewBox="0 0 24 24" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M16.4697 16.4697C16.7626 16.1768 17.2374 16.1768 17.5303 16.4697L21.5303 20.4697C21.8232 20.7626 21.8232 21.2374 21.5303 21.5303C21.2374 21.8232 20.7626 21.8232 20.4697 21.5303L16.4697 17.5303C16.1768 17.2374 16.1768 16.7626 16.4697 16.4697Z"
+                                    fill="#33836E" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M11 3.75C6.99594 3.75 3.75 6.99594 3.75 11C3.75 15.0041 6.99594 18.25 11 18.25C13.0057 18.25 14.82 17.4365 16.1333 16.1197C17.4421 14.8074 18.25 12.9988 18.25 11C18.25 6.99594 15.0041 3.75 11 3.75ZM2.25 11C2.25 6.16751 6.16751 2.25 11 2.25C15.8325 2.25 19.75 6.16751 19.75 11C19.75 13.4118 18.7732 15.597 17.1954 17.179C15.6121 18.7664 13.4202 19.75 11 19.75C6.16751 19.75 2.25 15.8325 2.25 11Z"
+                                    fill="#33836E" />
+                            </svg>
+                            <svg class="seargh-header2 profile" xmlns="http://www.w3.org/2000/svg" width="24"
+                                height="24" viewBox="0 0 24 24" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M12 12.75C8.54822 12.75 5.75 15.5482 5.75 19V20C5.75 20.4142 5.41421 20.75 5 20.75C4.58579 20.75 4.25 20.4142 4.25 20V19C4.25 14.7198 7.71979 11.25 12 11.25C16.2802 11.25 19.75 14.7198 19.75 19V20C19.75 20.4142 19.4142 20.75 19 20.75C18.5858 20.75 18.25 20.4142 18.25 20V19C18.25 15.5482 15.4518 12.75 12 12.75Z"
+                                    fill="#33836E" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M12 4.75C10.2051 4.75 8.75 6.20507 8.75 8C8.75 9.79493 10.2051 11.25 12 11.25C13.7949 11.25 15.25 9.79493 15.25 8C15.25 6.20507 13.7949 4.75 12 4.75ZM7.25 8C7.25 5.37665 9.37665 3.25 12 3.25C14.6234 3.25 16.75 5.37665 16.75 8C16.75 10.6234 14.6234 12.75 12 12.75C9.37665 12.75 7.25 10.6234 7.25 8Z"
+                                    fill="#33836E" />
+                            </svg>
+                        </div>
+
+                        <div class="header-line-right">
+                            <button class="header-btn">
+                                <img class="qustion-img" src="img/question.svg" alt="">
+                                Задать вопрос
+                            </button>
+
+                            <div class="header-text-right">
+                                <p class="title-phone">8 800 302-92-70</p>
+                                <a href="order-call.html" class="supTitle-phone">Горячая линия 24/7</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <div class="container">
+                <div class="header__content">
+
+                    <div class="header-line-item">
+                        <img class="phone-img" src="img/phone (1).svg" alt="">
+                        <a href="#" class="header-line-item__text">Заказать звонок</a>
+                    </div>
+
+                    <div class="header-drop  ">
+                        <nav class="nav ">
+                            <ul>
+                                <li>
+                                    <a class="nav-link_header " href="hot-line.html">Консультация по телефону</a>
+                                </li>
+                                <li>
+                                    <a class="nav-link_header " href="">Отзывы</a>
+                                </li>
+                                <li>
+                                    <a class="nav-link_header " href="lawyerQuestion.html">Вопросы</a>
+                                </li>
+                                <li>
+                                    <a class="nav-link_header " href="">Юристы</a>
+                                </li>
+                                <li>
+                                    <a class="nav-link_header " href="">Статьи</a>
+                                </li>
+                                <li>
+                                    <a class="nav-link_header " href="">Контакты</a>
+                                </li>
+
+                                <li>
+                                    <p class="nav-link_header profile">Вход / Регистрация</p>
+                                   
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="profile-menu hidden ">
+            <div class="profile-menu-content">
+                <div class="profile-menu-header">
+                    <p>Вход</p>
+                    <button class="button">
+                        <span class="X"></span>
+                        <span class="Y"></span>
+                        <div class="close">Close</div>
+                      </button>
+                </div>
+                <div class="profile-menu-body">
+                    <input class="profile-menu-input" placeholder="email" type="email">
+                    <input class="profile-menu-input" placeholder="пароль" type="email">
+                    <div class="container2">
+                        <input type="checkbox" id="cbx2" style="display: none;">
+                        <label for="cbx2" class="check">
+                            <svg width="18px" height="18px" viewBox="0 0 18 18">
+                                <path d="M 1 9 L 1 9 c 0 -5 3 -8 8 -8 L 9 1 C 14 1 17 5 17 9 L 17 9 c 0 4 -4 8 -8 8 L 9 17 C 5 17 1 14 1 9 L 1 9 Z"></path>
+                                <polyline points="1 9 7 14 15 4"></polyline>
+                            </svg>
+                        </label>
+                        <p>Запомнить меня</p>
+                    </div>
+                    <div class="profile-menu-footer">
+                       <div class="profile-footer-cont">
+                        <button class="profile-menu-btn" >Войти</button>
+                        <p>ИЛИ</p>
+                        <button class="profile-menu-btn black" >Зарегистрироваться</button>
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="intro">
+            <div class="container">
+                <p class="first__text">Главная / Горячая линия</p>
+                <div class="intro-content">
+                    <div class="inro_oneBlock">
+                        <h1 class="intro-title">Горячая линия по оказанию юридической помощи онлайн</h1>
+                        <p class="supTitle-intro">Профессиональная помощь доступна круглосуточно – заявки обрабатываются
+                            в любое время дня и ночи. Обращаясь к специалистам «100 Юристов», вы можете рассчитывать на
+                            прозрачные, понятные условия сотрудничества</p>
+
+                        <div class="info-intro_block">
+                            <button class="btn-intro">Задать вопрос юристу</button>
+                            <div class="intro_blockTwo">
+                                <p class="intro_blockTwo-num">8 800 302-92-70</p>
+                                <p class="freeCallLaw">Бесплатный звонок юристу 24/7</p>
+                            </div>
+
+                        </div>
+                        <div class="foot-itro">
+                            <img src="icon/clock.svg" alt="">
+                            <p>Круглосуточно</p>
+                            <img src="icon/money-square.svg" alt="">
+                            <p>Бесплатно</p>
+                            <img src="icon/lock.svg" alt="">
+                            <p>Конфиденциально</p>
+                            <img class="lst-img" src="icon/flash.svg" alt="">
+                            <p>Быстро</p>
+                        </div>
+                    </div>
+
+                    <div class="inro_twoBlock">
+                        <div class="circl-intro">
+                            <img class="intro-img" src="img/order-inro.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="help">
+            <div class="container">
+                <h3 class="help-title">Юридическая помощь</h3>
+                <p>Срочно понадобились услуги профессионального юриста или адвоката? Решение есть! Наша горячая
+                    юридическая линия – возможность оперативно, абсолютно бесплатно получить ответ на любой вопрос.
+                    Теперь не нужно записываться на офлайн-прием и тратить время на поездку и очереди перед кабинетом.
+                </p>
+                <p>Профессиональная помощь доступна круглосуточно – заявки обрабатываются в любое время дня и ночи.
+                    Обращаясь к специалистам «100 Юристов», вы можете рассчитывать на прозрачные, понятные условия
+                    сотрудничества.</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="howGetConsul">
+            <div class="container">
+                <h3 class="howGetConsul-title">Как получить бесплатную юридическую консультацию?</h3>
+                <p class="howGetConsul-suPtitle">Задайте вопрос юристу бесплатно круглосуточно и без регистрации</p>
+
+                <div data-aos="fade-up" class="howGetConsul-content">
+                    <div class="howGetConsul-item">
+                        <img src="img/phone (1).svg" alt="">
+                        <p class="howGetConsul__text1">По телефону горячей линии</p>
+                        <p class="howGetConsul__text2">8 800 302-92-70</p>
+                        <a href="" class="order-call">Заказать звонок</a>
+                    </div>
+
+                    <div class="howGetConsul-item">
+                        <img src="icon-2/reply.svg" alt="">
+                        <p class="howGetConsul__text1 last">Задать свой вопрос на сайте и получить ответ онлайн</p>
+                        <a href="" class="order-call">Заказать звонок</a>
+                    </div>
+
+                    <div class="howGetConsul-item">
+                        <img src="icon-2/chat-lines.svg" alt="">
+                        <p class="howGetConsul__text1 last">Отправить запрос на обратный звонок юриста</p>
+
+                        <a href="" class="order-call">Заказать звонок</a>
+                    </div>
+
+                    <div class="howGetConsul-item">
+                        <img src="icon-2/building.svg" alt="">
+                        <p class="howGetConsul__text1 last ">Записаться на очную консультацию в офис</p>
+
+                        <a href="" class="order-call">Заказать звонок</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="supIntro">
+        <div class="container">
+            <div class="supIntro-content">
+                <div class="supIntro__one-block">
+                    <img class="supIntro__one-img" src="img/woman-working-call-center 1.png" alt="">
+                    <div class="block-circl"></div>
+                </div>
+                <div class="supIntro__two-block">
+                    <h3 class="supIntro__title">Звоните, мы работаем 24/7</h3>
+                    <p class="supIntro__text">8-800-302-92-70</p>
+                </div>
+                <div class="supIntro__tree-block">
+                    <p class="supIntro__tree-text">64 юриста сейчас онлайн</p>
+                    <div class="gallery-block">
+                        <img class="gallery__item9 one gal" src="icon/Ellipse 15.png" alt="">
+                        <img class="gallery__item gal" src="icon/Ellipse 20.png" alt="">
+                        <img class="gallery__item2 gal" src="icon/Ellipse 16.png" alt="">
+                        <img class="gallery__item3 gal" src="icon/Ellipse 17.png" alt="">
+                        <img class="gallery__item4 gal" src="icon/Ellipse 18.png" alt="">
+                        <img class="gallery__item5 gal" src="icon/Ellipse 19.png" alt="">
+                        <img class="gallery__item6 gal" src="icon/Frame 983.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="helpToYou">
+            <div class="container">
+                <h2 class="helpToYou-title">Как мы сможем помочь вам? </h2>
+                <div data-aos="fade-up" class="helpToYou-content">
+                    <div data-aos="fade-right" class="helpToYou__item">
+                        <div class="circl-toYou">
+                            <img class="helpToYou-img" src="icon-2/Frame (5).svg" alt="">
+                        </div>
+                        <p class="helpToYou-text">Провести бесплатную консультацию на личном приёме у нас в офисе,
+                            по телефону горячей линии <strong>800 302-92-70</strong>, в онлайн чате или по WhatsApp
+                            и Telegram</p>
+                    </div>
+
+                    <div data-aos="fade-right" class="helpToYou__item">
+                        <div class="circl-toYou">
+                            <img class="helpToYou-img" src="icon-2/Frame-1.svg" alt="">
+                        </div>
+                        <p class="helpToYou-text">В ходе консультации будет проанализирована ваша ситуация с точки
+                            зрения законодательства Российской Федерации с последними изменениями на сегодняшний день
+                        </p>
+                    </div>
+                </div>
+
+
+
+                <div data-aos="fade-up" class="helpToYou-content">
+                    <div data-aos="fade-right" class="helpToYou__item">
+                        <div class="circl-toYou">
+                            <img class="helpToYou-img" src="icon-2/Frame-2.svg" alt="">
+                        </div>
+                        <p class="helpToYou-text">После чего наш специалист сможет определить все возможные пути решения
+                            вашей ситуации выявить все возможные подводные камни и подскажет как их избежать.</p>
+                    </div>
+
+                    <div data-aos="fade-right" class="helpToYou__item">
+                        <div class="circl-toYou">
+                            <img class="helpToYou-img" src="icon-2/Frame.svg" alt="">
+                        </div>
+                        <p class="helpToYou-text">Как показывает практика данной консультации бывает достаточно для
+                            решения вашего вопроса. Если нет, то вы всегда сможете воспользоваться нашими услугами на
+                            выгодных условиях.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="choose__us">
+        <div class="container">
+            <div class="choose__us-top">
+                <div class="choose__us-top__left">
+                    <h2 class="choose__us-title">Почему стоит выбрать нас?</h2>
+                    <p class="choose__us-text">Срочно понадобились услуги профессионального юриста или адвоката?
+                        Решение есть! Наша горячая юридическая линия – возможность оперативно, абсолютно бесплатно
+                        получить ответ на любой вопрос</p>
+                    <div class="choose__us-contItem">
+                        <div class="choose__us-Item">
+                            <p class="green-text">100 тыс</p>
+                            <p class="supGreen-text">Успешных дел</p>
+                        </div>
+                        <div class="choose__us-Item">
+                            <p class="green-text">10 лет</p>
+                            <p class="supGreen-text">Успешной работы</p>
+                        </div>
+                        <div class="choose__us-Item">
+                            <p class="green-text">100 </p>
+                            <p class="supGreen-text">Юристов онлайн</p>
+                        </div>
+                    </div>
+                </div>
+                <img class="img-choose desctop" src="img/group.png" alt="">
+            </div>
+            <img class="img-choose mobail" src="img/group.png" alt="">
+
+
+            <div class="choose__us-bottom">
+                <div class="choose__us-bar">
+                    <div class="choose__us-bar-left">
+                        <h2 class="choose__us-bar-title">Телефон горячей линии</h2>
+                        <p class="choose__us-bar-num">8 800 302-92-70</p>
+                    </div>
+                    <div class="choose__us-bar-right">
+                        <h3 class="order-title">Заказать обратный звонок</h3>
+                        <div class="bar__info-flex__content left">
+                            <div class="bar__info-oneBlock content">
+                                <p class="bar__info-num-text">Номер телефона</p>
+                                <p class="bar__info-num">+7 963 335-87-52</p>
+                            </div>
+                            <div class="bar__info-TwoBlock content ">
+                                <a href="order-call.html" class="btn-cont-text">Заказать звонок</a>
+                            </div>
+                        </div>
+                        <p class="choose__us-link">Отправляя вопрос, вы соглашаетесь с условиями <a
+                                class="choose__us-links " href="">Пользовательского соглашения</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="specialty-of_lawyer">
+            <div class="container">
+                <h3 class="specialty-of_lawyer-title">Специальности наших юристов</h3>
+
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div data-aos="fade-up" class="specialty-content">
+                                <div class="specialty-item">
+                                    <div class="specialty-header">
+                                        <img src="icon/stroller.jpg" alt="">
+                                        <p class="items-title">По семейным делам</p>
+                                    </div>
+                                    <p class="specialty-text">Юрист помогает в решении жилищных, образовательных,
+                                        имущественных, страховых, земельных и иных споров и вопросов по данному
+                                        направлению. В зависимости от ситуации возможно применение досудебного и
+                                        судебного урегулирования. Более подробную информацию получите в процессе
+                                        юридической консультации</p>
+                                </div>
+
+                                <div class="specialty-item desctop">
+                                    <div class="specialty-header">
+                                        <img src="icon-2/ev-plug.svg" alt="">
+                                        <p class="items-title">По вопросам ЖКХ</p>
+                                    </div>
+                                    <p class="specialty-text">С каждым годом у граждан России возникает все больше
+                                        вопросов к структурам жилищно-коммунального хозяйства. Некоторых интересует,
+                                        почему они должны каждый месяц платить за лифт, проживая при этом на первом
+                                        этаже. А кого-то возмущает, что коммунальщики вычитывают из заработной платы
+                                        людей долги по услугам. Вопросов много. И все они нуждаются в грамотной правовой
+                                        оценке. Бесплатная помощь наших юристов – лучший выход из ситуации. Специалисты
+                                        мгновенно оценят ситуацию, разъяснят непонятные моменты, подскажут, как
+                                        правильно оформить претензию/иск и куда ее направить</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide ">
+                            <div class="specialty-content">
+                                <div class="specialty-item item-hidden">
+                                    <div class="specialty-header">
+                                        <img src="icon/stroller.jpg" alt="">
+                                        <p class="items-title">По семейным делам</p>
+                                    </div>
+                                    <p class="specialty-text">Юрист помогает в решении жилищных, образовательных,
+                                        имущественных, страховых, земельных и иных споров и вопросов по данному
+                                        направлению. В зависимости от ситуации возможно применение досудебного и
+                                        судебного урегулирования. Более подробную информацию получите в процессе
+                                        юридической консультации</p>
+                                </div>
+
+                                <div class="specialty-item ">
+                                    <div class="specialty-header">
+                                        <img src="icon-2/ev-plug.svg" alt="">
+                                        <p class="items-title">По вопросам ЖКХ</p>
+                                    </div>
+                                    <p class="specialty-text">С каждым годом у граждан России возникает все больше
+                                        вопросов к структурам жилищно-коммунального хозяйства. Некоторых интересует,
+                                        почему они должны каждый месяц платить за лифт, проживая при этом на первом
+                                        этаже. А кого-то возмущает, что коммунальщики вычитывают из заработной платы
+                                        людей долги по услугам. Вопросов много. И все они нуждаются в грамотной правовой
+                                        оценке. Бесплатная помощь наших юристов – лучший выход из ситуации. Специалисты
+                                        мгновенно оценят ситуацию, разъяснят непонятные моменты, подскажут, как
+                                        правильно оформить претензию/иск и куда ее направить</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="specialty-content">
+                                <div class="specialty-item ">
+                                    <div class="specialty-header">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25"
+                                            viewBox="0 0 24 25" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M7.51173 8.94141C7.81961 9.2185 7.84457 9.69272 7.56748 10.0006L7.55748 10.0117C7.28038 10.3196 6.80616 10.3446 6.49828 10.0675C6.1904 9.79036 6.16544 9.31615 6.44254 9.00826L6.45254 8.99715C6.72963 8.68927 7.20385 8.66431 7.51173 8.94141Z"
+                                                fill="#33836E" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M11.5117 8.94141C11.8196 9.2185 11.8446 9.69272 11.5675 10.0006L11.5575 10.0117C11.2804 10.3196 10.8062 10.3446 10.4983 10.0675C10.1904 9.79036 10.1654 9.31615 10.4425 9.00826L10.4525 8.99715C10.7296 8.68927 11.2038 8.66431 11.5117 8.94141Z"
+                                                fill="#33836E" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M7.51173 12.9414C7.81961 13.2185 7.84457 13.6927 7.56748 14.0006L7.55748 14.0117C7.28038 14.3196 6.80616 14.3446 6.49828 14.0675C6.1904 13.7904 6.16544 13.3161 6.44254 13.0083L6.45254 12.9972C6.72963 12.6893 7.20385 12.6643 7.51173 12.9414Z"
+                                                fill="#33836E" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M11.5117 12.9414C11.8196 13.2185 11.8446 13.6927 11.5675 14.0006L11.5575 14.0117C11.2804 14.3196 10.8062 14.3446 10.4983 14.0675C10.1904 13.7904 10.1654 13.3161 10.4425 13.0083L10.4525 12.9972C10.7296 12.6893 11.2038 12.6643 11.5117 12.9414Z"
+                                                fill="#33836E" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M7.51173 16.9414C7.81961 17.2185 7.84457 17.6927 7.56748 18.0006L7.55748 18.0117C7.28038 18.3196 6.80616 18.3446 6.49828 18.0675C6.1904 17.7904 6.16544 17.3161 6.44254 17.0083L6.45254 16.9972C6.72963 16.6893 7.20385 16.6643 7.51173 16.9414Z"
+                                                fill="#33836E" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M11.5117 16.9414C11.8196 17.2185 11.8446 17.6927 11.5675 18.0006L11.5575 18.0117C11.2804 18.3196 10.8062 18.3446 10.4983 18.0675C10.1904 17.7904 10.1654 17.3161 10.4425 17.0083L10.4525 16.9972C10.7296 16.6893 11.2038 16.6643 11.5117 16.9414Z"
+                                                fill="#33836E" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M20.25 20.75V10.25H15.75V12.75H17C17.4142 12.75 17.75 13.0858 17.75 13.5C17.75 13.9142 17.4142 14.25 17 14.25H15.75V16.75H17C17.4142 16.75 17.75 17.0858 17.75 17.5C17.75 17.9142 17.4142 18.25 17 18.25H15.75V20.75H20.25ZM14.25 20.75V4.25H9.75V5.5C9.75 5.91421 9.41421 6.25 9 6.25H3.75V20.75H14.25ZM15.75 8.75H20.4C21.1456 8.75 21.75 9.35442 21.75 10.1V20.9C21.75 21.6456 21.1456 22.25 20.4 22.25H3.6C2.85442 22.25 2.25 21.6456 2.25 20.9V6.1C2.25 5.35442 2.85442 4.75 3.6 4.75H8.25V4.1C8.25 3.35442 8.85442 2.75 9.6 2.75H14.4C15.1456 2.75 15.75 3.35442 15.75 4.1V8.75Z"
+                                                fill="#33836E" />
+                                        </svg>
+                                        <p class="items-title">По жилищному праву</p>
+                                    </div>
+                                    <p class="specialty-text">Квартирный вопрос из года в год остается камнем
+                                        преткновения для
+                                        многих граждан. Люди чуть ли не на смерть бьются за каждый причитающийся им
+                                        квадратный метр.
+                                        И эта борьба нередко сопровождается серьезными тратами как в виде финансов, так
+                                        и нервов.
+                                        Чтобы максимально защитить себя, оградить от возможных неприятных «сюрпризов» и
+                                        сэкономить
+                                        ресурсы, воспользуйтесь бесплатной юридической помощью. Специалисты подскажут,
+                                        на что
+                                        обратить внимание при покупке недвижимости, как получить разрешение на установку
+                                        систем
+                                        видеонаблюдения, как грамотно подойти к сделке купли-продажи и т.д.</p>
+                                </div>
+
+                                <div class="specialty-item item-hidden">
+                                    <div class="specialty-header">
+                                        <img src="icon-2/ev-plug.svg" alt="">
+                                        <p class="items-title">По вопросам ЖКХ</p>
+                                    </div>
+                                    <p class="specialty-text">С каждым годом у граждан России возникает все больше
+                                        вопросов к структурам жилищно-коммунального хозяйства. Некоторых интересует,
+                                        почему они должны каждый месяц платить за лифт, проживая при этом на первом
+                                        этаже. А кого-то возмущает, что коммунальщики вычитывают из заработной платы
+                                        людей долги по услугам. Вопросов много. И все они нуждаются в грамотной правовой
+                                        оценке. Бесплатная помощь наших юристов – лучший выход из ситуации. Специалисты
+                                        мгновенно оценят ситуацию, разъяснят непонятные моменты, подскажут, как
+                                        правильно оформить претензию/иск и куда ее направить</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="swiper mySwiper ">
+                    <div class="swiper-wrapper ">
+                        <div class="swiper-slide">
+                            <div data-aos="fade-up" class="specialty-content  desctop">
+                                <div class="specialty-item ">
+                                    <div class="specialty-header">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25"
+                                            viewBox="0 0 24 25" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M7.51173 8.94141C7.81961 9.2185 7.84457 9.69272 7.56748 10.0006L7.55748 10.0117C7.28038 10.3196 6.80616 10.3446 6.49828 10.0675C6.1904 9.79036 6.16544 9.31615 6.44254 9.00826L6.45254 8.99715C6.72963 8.68927 7.20385 8.66431 7.51173 8.94141Z"
+                                                fill="#33836E" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M11.5117 8.94141C11.8196 9.2185 11.8446 9.69272 11.5675 10.0006L11.5575 10.0117C11.2804 10.3196 10.8062 10.3446 10.4983 10.0675C10.1904 9.79036 10.1654 9.31615 10.4425 9.00826L10.4525 8.99715C10.7296 8.68927 11.2038 8.66431 11.5117 8.94141Z"
+                                                fill="#33836E" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M7.51173 12.9414C7.81961 13.2185 7.84457 13.6927 7.56748 14.0006L7.55748 14.0117C7.28038 14.3196 6.80616 14.3446 6.49828 14.0675C6.1904 13.7904 6.16544 13.3161 6.44254 13.0083L6.45254 12.9972C6.72963 12.6893 7.20385 12.6643 7.51173 12.9414Z"
+                                                fill="#33836E" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M11.5117 12.9414C11.8196 13.2185 11.8446 13.6927 11.5675 14.0006L11.5575 14.0117C11.2804 14.3196 10.8062 14.3446 10.4983 14.0675C10.1904 13.7904 10.1654 13.3161 10.4425 13.0083L10.4525 12.9972C10.7296 12.6893 11.2038 12.6643 11.5117 12.9414Z"
+                                                fill="#33836E" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M7.51173 16.9414C7.81961 17.2185 7.84457 17.6927 7.56748 18.0006L7.55748 18.0117C7.28038 18.3196 6.80616 18.3446 6.49828 18.0675C6.1904 17.7904 6.16544 17.3161 6.44254 17.0083L6.45254 16.9972C6.72963 16.6893 7.20385 16.6643 7.51173 16.9414Z"
+                                                fill="#33836E" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M11.5117 16.9414C11.8196 17.2185 11.8446 17.6927 11.5675 18.0006L11.5575 18.0117C11.2804 18.3196 10.8062 18.3446 10.4983 18.0675C10.1904 17.7904 10.1654 17.3161 10.4425 17.0083L10.4525 16.9972C10.7296 16.6893 11.2038 16.6643 11.5117 16.9414Z"
+                                                fill="#33836E" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M20.25 20.75V10.25H15.75V12.75H17C17.4142 12.75 17.75 13.0858 17.75 13.5C17.75 13.9142 17.4142 14.25 17 14.25H15.75V16.75H17C17.4142 16.75 17.75 17.0858 17.75 17.5C17.75 17.9142 17.4142 18.25 17 18.25H15.75V20.75H20.25ZM14.25 20.75V4.25H9.75V5.5C9.75 5.91421 9.41421 6.25 9 6.25H3.75V20.75H14.25ZM15.75 8.75H20.4C21.1456 8.75 21.75 9.35442 21.75 10.1V20.9C21.75 21.6456 21.1456 22.25 20.4 22.25H3.6C2.85442 22.25 2.25 21.6456 2.25 20.9V6.1C2.25 5.35442 2.85442 4.75 3.6 4.75H8.25V4.1C8.25 3.35442 8.85442 2.75 9.6 2.75H14.4C15.1456 2.75 15.75 3.35442 15.75 4.1V8.75Z"
+                                                fill="#33836E" />
+                                        </svg>
+                                        <p class="items-title">По жилищному праву</p>
+                                    </div>
+                                    <p class="specialty-text">Квартирный вопрос из года в год остается камнем
+                                        преткновения для
+                                        многих граждан. Люди чуть ли не на смерть бьются за каждый причитающийся им
+                                        квадратный метр.
+                                        И эта борьба нередко сопровождается серьезными тратами как в виде финансов, так
+                                        и нервов.
+                                        Чтобы максимально защитить себя, оградить от возможных неприятных «сюрпризов» и
+                                        сэкономить
+                                        ресурсы, воспользуйтесь бесплатной юридической помощью. Специалисты подскажут,
+                                        на что
+                                        обратить внимание при покупке недвижимости, как получить разрешение на установку
+                                        систем
+                                        видеонаблюдения, как грамотно подойти к сделке купли-продажи и т.д.</p>
+                                </div>
+
+                                <div class="specialty-item">
+                                    <div class="specialty-header">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25"
+                                            viewBox="0 0 24 25" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M0.25 4.5C0.25 4.08579 0.585786 3.75 1 3.75H19C19.4142 3.75 19.75 4.08579 19.75 4.5C19.75 4.91421 19.4142 5.25 19 5.25H1.75V16.5C1.75 16.9142 1.41421 17.25 1 17.25C0.585786 17.25 0.25 16.9142 0.25 16.5V4.5Z"
+                                                fill="#33836E" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M5.75 9.25V19.75H11.25V9.25H5.75ZM12.75 9.25V19.75H15.25V9.25H12.75ZM16.75 9.25V19.75H22.25V9.25H16.75ZM4.25 9.1C4.25 8.35442 4.85442 7.75 5.6 7.75H22.4C23.1456 7.75 23.75 8.35442 23.75 9.1V19.9C23.75 20.6456 23.1456 21.25 22.4 21.25H5.6C4.85442 21.25 4.25 20.6456 4.25 19.9V9.1Z"
+                                                fill="#33836E" />
+                                        </svg>
+                                        <p class="items-title">По кредитам</p>
+                                    </div>
+                                    <p class="specialty-text">Данное направление актуально не только для отдельных
+                                        граждан, но и
+                                        предпринимателей, крупных предприятий. Во время бесплатной консультации наши
+                                        сотрудники
+                                        подскажут, как правильно вести переговоры с кредиторами, как обезопасить
+                                        имущество от
+                                        возможного ареста. А также ответят на многие другие вопросы, связанные с
+                                        кредитованием.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="specialty-content desctop">
+                                <div class="specialty-item">
+                                    <div class="specialty-header">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25"
+                                            viewBox="0 0 24 25" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M7.51173 8.94141C7.81961 9.2185 7.84457 9.69272 7.56748 10.0006L7.55748 10.0117C7.28038 10.3196 6.80616 10.3446 6.49828 10.0675C6.1904 9.79036 6.16544 9.31615 6.44254 9.00826L6.45254 8.99715C6.72963 8.68927 7.20385 8.66431 7.51173 8.94141Z"
+                                                fill="#33836E" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M11.5117 8.94141C11.8196 9.2185 11.8446 9.69272 11.5675 10.0006L11.5575 10.0117C11.2804 10.3196 10.8062 10.3446 10.4983 10.0675C10.1904 9.79036 10.1654 9.31615 10.4425 9.00826L10.4525 8.99715C10.7296 8.68927 11.2038 8.66431 11.5117 8.94141Z"
+                                                fill="#33836E" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M7.51173 12.9414C7.81961 13.2185 7.84457 13.6927 7.56748 14.0006L7.55748 14.0117C7.28038 14.3196 6.80616 14.3446 6.49828 14.0675C6.1904 13.7904 6.16544 13.3161 6.44254 13.0083L6.45254 12.9972C6.72963 12.6893 7.20385 12.6643 7.51173 12.9414Z"
+                                                fill="#33836E" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M11.5117 12.9414C11.8196 13.2185 11.8446 13.6927 11.5675 14.0006L11.5575 14.0117C11.2804 14.3196 10.8062 14.3446 10.4983 14.0675C10.1904 13.7904 10.1654 13.3161 10.4425 13.0083L10.4525 12.9972C10.7296 12.6893 11.2038 12.6643 11.5117 12.9414Z"
+                                                fill="#33836E" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M7.51173 16.9414C7.81961 17.2185 7.84457 17.6927 7.56748 18.0006L7.55748 18.0117C7.28038 18.3196 6.80616 18.3446 6.49828 18.0675C6.1904 17.7904 6.16544 17.3161 6.44254 17.0083L6.45254 16.9972C6.72963 16.6893 7.20385 16.6643 7.51173 16.9414Z"
+                                                fill="#33836E" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M11.5117 16.9414C11.8196 17.2185 11.8446 17.6927 11.5675 18.0006L11.5575 18.0117C11.2804 18.3196 10.8062 18.3446 10.4983 18.0675C10.1904 17.7904 10.1654 17.3161 10.4425 17.0083L10.4525 16.9972C10.7296 16.6893 11.2038 16.6643 11.5117 16.9414Z"
+                                                fill="#33836E" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M20.25 20.75V10.25H15.75V12.75H17C17.4142 12.75 17.75 13.0858 17.75 13.5C17.75 13.9142 17.4142 14.25 17 14.25H15.75V16.75H17C17.4142 16.75 17.75 17.0858 17.75 17.5C17.75 17.9142 17.4142 18.25 17 18.25H15.75V20.75H20.25ZM14.25 20.75V4.25H9.75V5.5C9.75 5.91421 9.41421 6.25 9 6.25H3.75V20.75H14.25ZM15.75 8.75H20.4C21.1456 8.75 21.75 9.35442 21.75 10.1V20.9C21.75 21.6456 21.1456 22.25 20.4 22.25H3.6C2.85442 22.25 2.25 21.6456 2.25 20.9V6.1C2.25 5.35442 2.85442 4.75 3.6 4.75H8.25V4.1C8.25 3.35442 8.85442 2.75 9.6 2.75H14.4C15.1456 2.75 15.75 3.35442 15.75 4.1V8.75Z"
+                                                fill="#33836E" />
+                                        </svg>
+                                        <p class="items-title">По жилищному праву</p>
+                                    </div>
+                                    <p class="specialty-text">Квартирный вопрос из года в год остается камнем
+                                        преткновения для
+                                        многих граждан. Люди чуть ли не на смерть бьются за каждый причитающийся им
+                                        квадратный метр.
+                                        И эта борьба нередко сопровождается серьезными тратами как в виде финансов, так
+                                        и нервов.
+                                        Чтобы максимально защитить себя, оградить от возможных неприятных «сюрпризов» и
+                                        сэкономить
+                                        ресурсы, воспользуйтесь бесплатной юридической помощью. Специалисты подскажут,
+                                        на что
+                                        обратить внимание при покупке недвижимости, как получить разрешение на установку
+                                        систем
+                                        видеонаблюдения, как грамотно подойти к сделке купли-продажи и т.д.</p>
+                                </div>
+
+                                <div class="specialty-item">
+                                    <div class="specialty-header">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25"
+                                            viewBox="0 0 24 25" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M0.25 4.5C0.25 4.08579 0.585786 3.75 1 3.75H19C19.4142 3.75 19.75 4.08579 19.75 4.5C19.75 4.91421 19.4142 5.25 19 5.25H1.75V16.5C1.75 16.9142 1.41421 17.25 1 17.25C0.585786 17.25 0.25 16.9142 0.25 16.5V4.5Z"
+                                                fill="#33836E" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M5.75 9.25V19.75H11.25V9.25H5.75ZM12.75 9.25V19.75H15.25V9.25H12.75ZM16.75 9.25V19.75H22.25V9.25H16.75ZM4.25 9.1C4.25 8.35442 4.85442 7.75 5.6 7.75H22.4C23.1456 7.75 23.75 8.35442 23.75 9.1V19.9C23.75 20.6456 23.1456 21.25 22.4 21.25H5.6C4.85442 21.25 4.25 20.6456 4.25 19.9V9.1Z"
+                                                fill="#33836E" />
+                                        </svg>
+                                        <p class="items-title">По кредитам</p>
+                                    </div>
+                                    <p class="specialty-text">Данное направление актуально не только для отдельных
+                                        граждан, но и
+                                        предпринимателей, крупных предприятий. Во время бесплатной консультации наши
+                                        сотрудники
+                                        подскажут, как правильно вести переговоры с кредиторами, как обезопасить
+                                        имущество от
+                                        возможного ареста. А также ответят на многие другие вопросы, связанные с
+                                        кредитованием.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="specialty-content desctop">
+                                <div class="specialty-item">
+                                    <div class="specialty-header">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25"
+                                            viewBox="0 0 24 25" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M7.51173 8.94141C7.81961 9.2185 7.84457 9.69272 7.56748 10.0006L7.55748 10.0117C7.28038 10.3196 6.80616 10.3446 6.49828 10.0675C6.1904 9.79036 6.16544 9.31615 6.44254 9.00826L6.45254 8.99715C6.72963 8.68927 7.20385 8.66431 7.51173 8.94141Z"
+                                                fill="#33836E" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M11.5117 8.94141C11.8196 9.2185 11.8446 9.69272 11.5675 10.0006L11.5575 10.0117C11.2804 10.3196 10.8062 10.3446 10.4983 10.0675C10.1904 9.79036 10.1654 9.31615 10.4425 9.00826L10.4525 8.99715C10.7296 8.68927 11.2038 8.66431 11.5117 8.94141Z"
+                                                fill="#33836E" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M7.51173 12.9414C7.81961 13.2185 7.84457 13.6927 7.56748 14.0006L7.55748 14.0117C7.28038 14.3196 6.80616 14.3446 6.49828 14.0675C6.1904 13.7904 6.16544 13.3161 6.44254 13.0083L6.45254 12.9972C6.72963 12.6893 7.20385 12.6643 7.51173 12.9414Z"
+                                                fill="#33836E" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M11.5117 12.9414C11.8196 13.2185 11.8446 13.6927 11.5675 14.0006L11.5575 14.0117C11.2804 14.3196 10.8062 14.3446 10.4983 14.0675C10.1904 13.7904 10.1654 13.3161 10.4425 13.0083L10.4525 12.9972C10.7296 12.6893 11.2038 12.6643 11.5117 12.9414Z"
+                                                fill="#33836E" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M7.51173 16.9414C7.81961 17.2185 7.84457 17.6927 7.56748 18.0006L7.55748 18.0117C7.28038 18.3196 6.80616 18.3446 6.49828 18.0675C6.1904 17.7904 6.16544 17.3161 6.44254 17.0083L6.45254 16.9972C6.72963 16.6893 7.20385 16.6643 7.51173 16.9414Z"
+                                                fill="#33836E" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M11.5117 16.9414C11.8196 17.2185 11.8446 17.6927 11.5675 18.0006L11.5575 18.0117C11.2804 18.3196 10.8062 18.3446 10.4983 18.0675C10.1904 17.7904 10.1654 17.3161 10.4425 17.0083L10.4525 16.9972C10.7296 16.6893 11.2038 16.6643 11.5117 16.9414Z"
+                                                fill="#33836E" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M20.25 20.75V10.25H15.75V12.75H17C17.4142 12.75 17.75 13.0858 17.75 13.5C17.75 13.9142 17.4142 14.25 17 14.25H15.75V16.75H17C17.4142 16.75 17.75 17.0858 17.75 17.5C17.75 17.9142 17.4142 18.25 17 18.25H15.75V20.75H20.25ZM14.25 20.75V4.25H9.75V5.5C9.75 5.91421 9.41421 6.25 9 6.25H3.75V20.75H14.25ZM15.75 8.75H20.4C21.1456 8.75 21.75 9.35442 21.75 10.1V20.9C21.75 21.6456 21.1456 22.25 20.4 22.25H3.6C2.85442 22.25 2.25 21.6456 2.25 20.9V6.1C2.25 5.35442 2.85442 4.75 3.6 4.75H8.25V4.1C8.25 3.35442 8.85442 2.75 9.6 2.75H14.4C15.1456 2.75 15.75 3.35442 15.75 4.1V8.75Z"
+                                                fill="#33836E" />
+                                        </svg>
+                                        <p class="items-title">По жилищному праву</p>
+                                    </div>
+                                    <p class="specialty-text">Квартирный вопрос из года в год остается камнем
+                                        преткновения для
+                                        многих граждан. Люди чуть ли не на смерть бьются за каждый причитающийся им
+                                        квадратный метр.
+                                        И эта борьба нередко сопровождается серьезными тратами как в виде финансов, так
+                                        и нервов.
+                                        Чтобы максимально защитить себя, оградить от возможных неприятных «сюрпризов» и
+                                        сэкономить
+                                        ресурсы, воспользуйтесь бесплатной юридической помощью. Специалисты подскажут,
+                                        на что
+                                        обратить внимание при покупке недвижимости, как получить разрешение на установку
+                                        систем
+                                        видеонаблюдения, как грамотно подойти к сделке купли-продажи и т.д.</p>
+                                </div>
+
+                                <div class="specialty-item">
+                                    <div class="specialty-header">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="25"
+                                            viewBox="0 0 24 25" fill="none">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M0.25 4.5C0.25 4.08579 0.585786 3.75 1 3.75H19C19.4142 3.75 19.75 4.08579 19.75 4.5C19.75 4.91421 19.4142 5.25 19 5.25H1.75V16.5C1.75 16.9142 1.41421 17.25 1 17.25C0.585786 17.25 0.25 16.9142 0.25 16.5V4.5Z"
+                                                fill="#33836E" />
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M5.75 9.25V19.75H11.25V9.25H5.75ZM12.75 9.25V19.75H15.25V9.25H12.75ZM16.75 9.25V19.75H22.25V9.25H16.75ZM4.25 9.1C4.25 8.35442 4.85442 7.75 5.6 7.75H22.4C23.1456 7.75 23.75 8.35442 23.75 9.1V19.9C23.75 20.6456 23.1456 21.25 22.4 21.25H5.6C4.85442 21.25 4.25 20.6456 4.25 19.9V9.1Z"
+                                                fill="#33836E" />
+                                        </svg>
+                                        <p class="items-title">По кредитам</p>
+                                    </div>
+                                    <p class="specialty-text">Данное направление актуально не только для отдельных
+                                        граждан, но и
+                                        предпринимателей, крупных предприятий. Во время бесплатной консультации наши
+                                        сотрудники
+                                        подскажут, как правильно вести переговоры с кредиторами, как обезопасить
+                                        имущество от
+                                        возможного ареста. А также ответят на многие другие вопросы, связанные с
+                                        кредитованием.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div data-aos="fade-up" class="specialty-content desctop">
+                                <div class="specialty-item">
+                                    <div class="specialty-header">
+                                        <img src="img/pin-alt.png" alt="">
+                                        <p class="items-title">По земельным делам</p>
+                                    </div>
+                                    <p class="specialty-text">На сегодняшний день земля – ценный актив, использовать
+                                        который можно
+                                        по-разному. Например, на ней можно добывать полезные ископаемые (при наличии
+                                        таковых в
+                                        недрах), производить высадку культурных растений, сдавать в аренду и т.д. В
+                                        процессе
+                                        эксплуатации земельных участков возникают разнообразные ситуации, большинство
+                                        которых
+                                        невозможно разрешить без грамотной юридической консультации. Получить ее можно
+                                        круглосуточно
+                                        и бесплатно через наш сервис.</p>
+                                </div>
+
+                                <div class="specialty-item">
+                                    <div class="specialty-header">
+                                        <img src="icon/large-suitcase.jpg" alt="">
+                                        <p class="items-title">По трудовым вопросам</p>
+                                    </div>
+                                    <p class="specialty-text">Права трудящихся, несмотря на наличие соответствующего
+                                        кодекса,
+                                        постоянно нарушаются. Многие сотрудники сталкиваются с незаконными увольнениями,
+                                        беспричинно
+                                        лишаются оплаты отпускных, несут чрезмерную материальную ответственность и пр.
+                                        Возможны и
+                                        обратные ситуации, когда сами предприятия страдают от произвола персонала.
+                                        Своевременное
+                                        привлечение к возникшей проблеме адвоката позволяет с минимальными потерями
+                                        урегулировать
+                                        конфликт. Если вы столкнулись с подобной ситуацией, воспользуйтесь бесплатной
+                                        юридической
+                                        консультацией по телефону от «100 Юристов»</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="specialty-content desctop">
+                                <div class="specialty-item">
+                                    <div class="specialty-header">
+                                        <img src="img/pin-alt.png" alt="">
+                                        <p class="items-title">По земельным делам</p>
+                                    </div>
+                                    <p class="specialty-text">На сегодняшний день земля – ценный актив, использовать
+                                        который можно
+                                        по-разному. Например, на ней можно добывать полезные ископаемые (при наличии
+                                        таковых в
+                                        недрах), производить высадку культурных растений, сдавать в аренду и т.д. В
+                                        процессе
+                                        эксплуатации земельных участков возникают разнообразные ситуации, большинство
+                                        которых
+                                        невозможно разрешить без грамотной юридической консультации. Получить ее можно
+                                        круглосуточно
+                                        и бесплатно через наш сервис.</p>
+                                </div>
+
+                                <div class="specialty-item">
+                                    <div class="specialty-header">
+                                        <img src="icon/large-suitcase.jpg" alt="">
+                                        <p class="items-title">По трудовым вопросам</p>
+                                    </div>
+                                    <p class="specialty-text">Права трудящихся, несмотря на наличие соответствующего
+                                        кодекса,
+                                        постоянно нарушаются. Многие сотрудники сталкиваются с незаконными увольнениями,
+                                        беспричинно
+                                        лишаются оплаты отпускных, несут чрезмерную материальную ответственность и пр.
+                                        Возможны и
+                                        обратные ситуации, когда сами предприятия страдают от произвола персонала.
+                                        Своевременное
+                                        привлечение к возникшей проблеме адвоката позволяет с минимальными потерями
+                                        урегулировать
+                                        конфликт. Если вы столкнулись с подобной ситуацией, воспользуйтесь бесплатной
+                                        юридической
+                                        консультацией по телефону от «100 Юристов»</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="specialty-content desctop">
+                                <div class="specialty-item">
+                                    <div class="specialty-header">
+                                        <img src="img/pin-alt.png" alt="">
+                                        <p class="items-title">По земельным делам</p>
+                                    </div>
+                                    <p class="specialty-text">На сегодняшний день земля – ценный актив, использовать
+                                        который можно
+                                        по-разному. Например, на ней можно добывать полезные ископаемые (при наличии
+                                        таковых в
+                                        недрах), производить высадку культурных растений, сдавать в аренду и т.д. В
+                                        процессе
+                                        эксплуатации земельных участков возникают разнообразные ситуации, большинство
+                                        которых
+                                        невозможно разрешить без грамотной юридической консультации. Получить ее можно
+                                        круглосуточно
+                                        и бесплатно через наш сервис.</p>
+                                </div>
+
+                                <div class="specialty-item">
+                                    <div class="specialty-header">
+                                        <img src="icon/large-suitcase.jpg" alt="">
+                                        <p class="items-title">По трудовым вопросам</p>
+                                    </div>
+                                    <p class="specialty-text">Права трудящихся, несмотря на наличие соответствующего
+                                        кодекса,
+                                        постоянно нарушаются. Многие сотрудники сталкиваются с незаконными увольнениями,
+                                        беспричинно
+                                        лишаются оплаты отпускных, несут чрезмерную материальную ответственность и пр.
+                                        Возможны и
+                                        обратные ситуации, когда сами предприятия страдают от произвола персонала.
+                                        Своевременное
+                                        привлечение к возникшей проблеме адвоката позволяет с минимальными потерями
+                                        урегулировать
+                                        конфликт. Если вы столкнулись с подобной ситуацией, воспользуйтесь бесплатной
+                                        юридической
+                                        консультацией по телефону от «100 Юристов»</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="swiper mySwiper ">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div data-aos="fade-up" class="specialty-content desctop">
+                                <div class="specialty-item">
+                                    <div class="specialty-header">
+                                        <img src="icon/bank.jpg" alt="">
+                                        <p class="items-title">По приставам</p>
+                                    </div>
+                                    <p class="specialty-text">Визит пристава – это практически всегда негативные эмоции.
+                                        Особенно
+                                        неприятно общение, если человек не знает, как правильно себя вести с
+                                        сотрудниками службы. В
+                                        этом случае без консультации не обойтись. Специалисты во время бесплатного
+                                        звонка раскрывают
+                                        нюансы взаимодействия пристава с должником. Например, юристы расскажут, что
+                                        сотрудники имеют
+                                        права беспокоить человека с 6 утра до 10 вечера и т.д.</p>
+                                </div>
+
+                                <div class="specialty-item">
+                                    <div class="specialty-header">
+                                        <img src="icon/group.jpg" alt="">
+                                        <p class="items-title">По гражданским делам</p>
+                                    </div>
+                                    <p class="specialty-text">Юрист помогает в решении жилищных, образовательных,
+                                        имущественных,
+                                        страховых, земельных и иных споров и вопросов по данному направлению. В
+                                        зависимости от
+                                        ситуации возможно применение досудебного и судебного урегулирования. Более
+                                        подробную
+                                        информацию получите в процессе юридической консультации</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="specialty-content desctop">
+                                <div class="specialty-item">
+                                    <div class="specialty-header">
+                                        <img src="icon/bank.jpg" alt="">
+                                        <p class="items-title">По приставам</p>
+                                    </div>
+                                    <p class="specialty-text">Визит пристава – это практически всегда негативные эмоции.
+                                        Особенно
+                                        неприятно общение, если человек не знает, как правильно себя вести с
+                                        сотрудниками службы. В
+                                        этом случае без консультации не обойтись. Специалисты во время бесплатного
+                                        звонка раскрывают
+                                        нюансы взаимодействия пристава с должником. Например, юристы расскажут, что
+                                        сотрудники имеют
+                                        права беспокоить человека с 6 утра до 10 вечера и т.д.</p>
+                                </div>
+
+                                <div class="specialty-item">
+                                    <div class="specialty-header">
+                                        <img src="icon/group.jpg" alt="">
+                                        <p class="items-title">По гражданским делам</p>
+                                    </div>
+                                    <p class="specialty-text">Юрист помогает в решении жилищных, образовательных,
+                                        имущественных,
+                                        страховых, земельных и иных споров и вопросов по данному направлению. В
+                                        зависимости от
+                                        ситуации возможно применение досудебного и судебного урегулирования. Более
+                                        подробную
+                                        информацию получите в процессе юридической консультации</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="specialty-content desctop">
+                                <div class="specialty-item">
+                                    <div class="specialty-header">
+                                        <img src="icon/bank.jpg" alt="">
+                                        <p class="items-title">По приставам</p>
+                                    </div>
+                                    <p class="specialty-text">Визит пристава – это практически всегда негативные эмоции.
+                                        Особенно
+                                        неприятно общение, если человек не знает, как правильно себя вести с
+                                        сотрудниками службы. В
+                                        этом случае без консультации не обойтись. Специалисты во время бесплатного
+                                        звонка раскрывают
+                                        нюансы взаимодействия пристава с должником. Например, юристы расскажут, что
+                                        сотрудники имеют
+                                        права беспокоить человека с 6 утра до 10 вечера и т.д.</p>
+                                </div>
+
+                                <div class="specialty-item">
+                                    <div class="specialty-header">
+                                        <img src="icon/group.jpg" alt="">
+                                        <p class="items-title">По гражданским делам</p>
+                                    </div>
+                                    <p class="specialty-text">Юрист помогает в решении жилищных, образовательных,
+                                        имущественных,
+                                        страховых, земельных и иных споров и вопросов по данному направлению. В
+                                        зависимости от
+                                        ситуации возможно применение досудебного и судебного урегулирования. Более
+                                        подробную
+                                        информацию получите в процессе юридической консультации</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <section data-aos="fade-up" class="getQuestion">
+        <div class="container">
+            <div class="getQuestion-content">
+                <div class="getQuestion-oneBlock">
+                    <h3 class="getQuestion-title">Задайте вопрос юристу бесплатно</h3>
+                </div>
+
+                <div class="getQuestion-TwoBlock">
+                    <div class="bar__info-flex__content">
+                        <div class="bar__info-oneBlock ">
+                            <p class="bar__info-num-text">Номер телефона</p>
+                            <p class="bar__info-num">+7 963 335-87-52</p>
+                        </div>
+                        <div class="bar__info-TwoBlock ">
+                            <a href="order-call.html" class="btn-cont-text">Заказать звонок</a>
+                        </div>
+                    </div>
+                    <a href="">
+                        <p class="getQuestion-link">Отправляя вопрос, вы соглашаетесь с условиями Пользовательского
+                            соглашения</p>
+                    </a>
+                </div>
+
+                <div class="getQuestion-TreeBlock">
+                    <img src="img/telefon.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="SEO">
+        <div class="container">
+            <h3 class="SEO-title">Блок для SEO текста</h3>
+            <p class="SEO-text">Срочно понадобились услуги профессионального юриста или адвоката? Решение есть! Наша
+                горячая юридическая линия – возможность оперативно, абсолютно бесплатно получить ответ на любой вопрос.
+                Теперь не нужно записываться на офлайн-прием и тратить время на поездку и очереди перед кабинетом.</p>
+            <p class="SEO-text">Профессиональная помощь доступна круглосуточно – заявки обрабатываются в любое время дня
+                и ночи. Обращаясь к специалистам «100 Юристов», вы можете рассчитывать на прозрачные, понятные условия
+                сотрудничества.</p>
+            <button class="SEO-btn">Показать весь текст</button>
+        </div>
+    </section>
+
+    <section class="Feedback-from-our-customers">
+        <div class="container">
+            <div class="Feedback__from-our-customers-top">
+                <h2 class="nnblock__title">Отзывы наших клиентов</h2>
+                <div class="right-Feedback__from-our-customers desctop">
+                    <div class="one-row__cont">
+                        <div class="central-cont">
+                            <img src="icon/yandex.png" alt="">
+                            <b>4,8</b>
+                        </div>
+                        <div class="star-cont">
+                            <img src="icon/star.svg" alt="">
+                            <img src="icon/star.svg" alt="">
+                            <img src="icon/star.svg" alt="">
+                            <img src="icon/star.svg" alt="">
+                            <img src="icon/star.svg" alt="">
+                        </div>
+                    </div>
+                    <p class="rating-organization">Рейтинг организации в Яндексе</p>
+                </div>
+            </div>
+
+
+
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="Feedback__from-our-customers-bottom">
+                            <div class="item-container">
+                                <div class="item-feedback  ">
+                                    <div class="item-header">
+                                        <div class="circl-user">
+                                            <img class="user-img" src="icon/user (3).svg" alt="">
+                                        </div>
+                                        <div class="header-content">
+                                            <p class="name">Вадим</p>
+                                            <p class="data">02 июля 2023</p>
+                                        </div>
+                                    </div>
+                                    <div class="star-item">
+                                        <img class="star-img" src="icon/star.svg" alt="">
+                                        <img class="star-img" src="icon/star.svg" alt="">
+                                        <img class="star-img" src="icon/star.svg" alt="">
+                                        <img class="star-img" src="icon/star.svg" alt="">
+                                        <img class="star-img" src="icon/star.svg" alt="">
+                                    </div>
+                                    <div class="between-item">
+                                        <p class="message-item">Хочу поблагодарить Веру Владимировну за оказанную
+                                            мне помощь,
+                                            объяснила что да как, на душе стало намного легче</p>
+                                    </div>
+                                    <div class="footer-item">
+                                        <p class="data qustion">Вопрос:</p>
+                                        <p class="question">Заберут ли меня в случае общей мобилизации на войну если
+                                            я</p>
+                                    </div>
+                                </div>
+                                <div class="item-feedback  desctop    ">
+                                    <div class="item-header">
+                                        <div class="circl-user">
+                                            <img class="user-img" src="icon/user (3).svg" alt="">
+                                        </div>
+                                        <div class="header-content">
+                                            <p class="name">Вадим</p>
+                                            <p class="data">02 июля 2023</p>
+                                        </div>
+                                    </div>
+                                    <div class="star-item">
+                                        <img class="star-img" src="icon/star.svg" alt="">
+                                        <img class="star-img" src="icon/star.svg" alt="">
+                                        <img class="star-img" src="icon/star.svg" alt="">
+                                        <img class="star-img" src="icon/star.svg" alt="">
+                                        <img class="star-img" src="icon/star.svg" alt="">
+                                    </div>
+                                    <div class="between-item">
+                                        <p class="message-item">Спасибо огромное за грамотную помощь. Ответили очень
+                                            быстро,
+                                            проконсультировали, подсказали и самое главное помогли в моей ситуации.
+                                            Высоко
+                                            квалифицированный специалист, спасибо</p>
+                                    </div>
+                                    <div class="footer-item">
+                                        <p class="data qustion">Вопрос:</p>
+                                        <p class="question">Заберут ли меня в случае общей мобилизации на войну если
+                                            я</p>
+                                    </div>
+                                </div>
+                                <div class="item-feedback  desctop  ">
+                                    <div class="item-header">
+                                        <div class="circl-user">
+                                            <img class="user-img" src="icon/user (3).svg" alt="">
+                                        </div>
+                                        <div class="header-content">
+                                            <p class="name">Вадим</p>
+                                            <p class="data">02 июля 2023</p>
+                                        </div>
+                                    </div>
+                                    <div class="star-item">
+                                        <img class="star-img" src="icon/star.svg" alt="">
+                                        <img class="star-img" src="icon/star.svg" alt="">
+                                        <img class="star-img" src="icon/star.svg" alt="">
+                                        <img class="star-img" src="icon/star.svg" alt="">
+                                        <img class="star-img" src="icon/star.svg" alt="">
+                                    </div>
+                                    <div class="between-item">
+                                        <p class="message-item">Хочу поблагодарить Веру Владимировну за оказанную
+                                            мне помощь,
+                                            объяснила что да как, на душе стало намного легче</p>
+                                    </div>
+                                    <div class="footer-item">
+                                        <p class="data qustion">Вопрос:</p>
+                                        <p class="question">Заберут ли меня в случае общей мобилизации на войну если
+                                            я</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="Feedback__from-our-customers-bottom">
+                            <div class="item-container">
+                                <div class="item-feedback  desctop  ">
+                                    <div class="item-header">
+                                        <div class="circl-user">
+                                            <img class="user-img" src="icon/user (3).svg" alt="">
+                                        </div>
+                                        <div class="header-content">
+                                            <p class="name">Вадим</p>
+                                            <p class="data">02 июля 2023</p>
+                                        </div>
+                                    </div>
+                                    <div class="star-item">
+                                        <img class="star-img" src="icon/star.svg" alt="">
+                                        <img class="star-img" src="icon/star.svg" alt="">
+                                        <img class="star-img" src="icon/star.svg" alt="">
+                                        <img class="star-img" src="icon/star.svg" alt="">
+                                        <img class="star-img" src="icon/star.svg" alt="">
+                                    </div>
+                                    <div class="between-item">
+                                        <p class="message-item">Хочу поблагодарить Веру Владимировну за оказанную
+                                            мне помощь,
+                                            объяснила что да как, на душе стало намного легче</p>
+                                    </div>
+                                    <div class="footer-item">
+                                        <p class="data qustion">Вопрос:</p>
+                                        <p class="question">Заберут ли меня в случае общей мобилизации на войну если
+                                            я</p>
+                                    </div>
+                                </div>
+                                <div class="item-feedback    ">
+                                    <div class="item-header">
+                                        <div class="circl-user">
+                                            <img class="user-img" src="icon/user (3).svg" alt="">
+                                        </div>
+                                        <div class="header-content">
+                                            <p class="name">Вадим</p>
+                                            <p class="data">02 июля 2023</p>
+                                        </div>
+                                    </div>
+                                    <div class="star-item">
+                                        <img class="star-img" src="icon/star.svg" alt="">
+                                        <img class="star-img" src="icon/star.svg" alt="">
+                                        <img class="star-img" src="icon/star.svg" alt="">
+                                        <img class="star-img" src="icon/star.svg" alt="">
+                                        <img class="star-img" src="icon/star.svg" alt="">
+                                    </div>
+                                    <div class="between-item">
+                                        <p class="message-item">Спасибо огромное за грамотную помощь. Ответили очень
+                                            быстро,
+                                            проконсультировали, подсказали и самое главное помогли в моей ситуации.
+                                            Высоко
+                                            квалифицированный специалист, спасибо</p>
+                                    </div>
+                                    <div class="footer-item">
+                                        <p class="data qustion">Вопрос:</p>
+                                        <p class="question">Заберут ли меня в случае общей мобилизации на войну если
+                                            я</p>
+                                    </div>
+                                </div>
+                                <div class="item-feedback  desctop  ">
+                                    <div class="item-header">
+                                        <div class="circl-user">
+                                            <img class="user-img" src="icon/user (3).svg" alt="">
+                                        </div>
+                                        <div class="header-content">
+                                            <p class="name">Вадим</p>
+                                            <p class="data">02 июля 2023</p>
+                                        </div>
+                                    </div>
+                                    <div class="star-item">
+                                        <img class="star-img" src="icon/star.svg" alt="">
+                                        <img class="star-img" src="icon/star.svg" alt="">
+                                        <img class="star-img" src="icon/star.svg" alt="">
+                                        <img class="star-img" src="icon/star.svg" alt="">
+                                        <img class="star-img" src="icon/star.svg" alt="">
+                                    </div>
+                                    <div class="between-item">
+                                        <p class="message-item">Хочу поблагодарить Веру Владимировну за оказанную
+                                            мне помощь,
+                                            объяснила что да как, на душе стало намного легче</p>
+                                    </div>
+                                    <div class="footer-item">
+                                        <p class="data qustion">Вопрос:</p>
+                                        <p class="question">Заберут ли меня в случае общей мобилизации на войну если
+                                            я</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="Feedback__from-our-customers-bottom">
+                            <div class="item-container">
+                                <div class="item-feedback    desctop ">
+                                    <div class="item-header">
+                                        <div class="circl-user">
+                                            <img class="user-img" src="icon/user (3).svg" alt="">
+                                        </div>
+                                        <div class="header-content">
+                                            <p class="name">Вадим</p>
+                                            <p class="data">02 июля 2023</p>
+                                        </div>
+                                    </div>
+                                    <div class="star-item">
+                                        <img class="star-img" src="icon/star.svg" alt="">
+                                        <img class="star-img" src="icon/star.svg" alt="">
+                                        <img class="star-img" src="icon/star.svg" alt="">
+                                        <img class="star-img" src="icon/star.svg" alt="">
+                                        <img class="star-img" src="icon/star.svg" alt="">
+                                    </div>
+                                    <div class="between-item">
+                                        <p class="message-item">Хочу поблагодарить Веру Владимировну за оказанную
+                                            мне помощь,
+                                            объяснила что да как, на душе стало намного легче</p>
+                                    </div>
+                                    <div class="footer-item">
+                                        <p class="data qustion">Вопрос:</p>
+                                        <p class="question">Заберут ли меня в случае общей мобилизации на войну если
+                                            я</p>
+                                    </div>
+                                </div>
+                                <div class="item-feedback  desctop  ">
+                                    <div class="item-header">
+                                        <div class="circl-user">
+                                            <img class="user-img" src="icon/user (3).svg" alt="">
+                                        </div>
+                                        <div class="header-content">
+                                            <p class="name">Вадим</p>
+                                            <p class="data">02 июля 2023</p>
+                                        </div>
+                                    </div>
+                                    <div class="star-item">
+                                        <img class="star-img" src="icon/star.svg" alt="">
+                                        <img class="star-img" src="icon/star.svg" alt="">
+                                        <img class="star-img" src="icon/star.svg" alt="">
+                                        <img class="star-img" src="icon/star.svg" alt="">
+                                        <img class="star-img" src="icon/star.svg" alt="">
+                                    </div>
+                                    <div class="between-item">
+                                        <p class="message-item">Спасибо огромное за грамотную помощь. Ответили очень
+                                            быстро,
+                                            проконсультировали, подсказали и самое главное помогли в моей ситуации.
+                                            Высоко
+                                            квалифицированный специалист, спасибо</p>
+                                    </div>
+                                    <div class="footer-item">
+                                        <p class="data qustion">Вопрос:</p>
+                                        <p class="question">Заберут ли меня в случае общей мобилизации на войну если
+                                            я</p>
+                                    </div>
+                                </div>
+                                <div class="item-feedback   ">
+                                    <div class="item-header">
+                                        <div class="circl-user">
+                                            <img class="user-img" src="icon/user (3).svg" alt="">
+                                        </div>
+                                        <div class="header-content">
+                                            <p class="name">Вадим</p>
+                                            <p class="data">02 июля 2023</p>
+                                        </div>
+                                    </div>
+                                    <div class="star-item">
+                                        <img class="star-img" src="icon/star.svg" alt="">
+                                        <img class="star-img" src="icon/star.svg" alt="">
+                                        <img class="star-img" src="icon/star.svg" alt="">
+                                        <img class="star-img" src="icon/star.svg" alt="">
+                                        <img class="star-img" src="icon/star.svg" alt="">
+                                    </div>
+                                    <div class="between-item">
+                                        <p class="message-item">Хочу поблагодарить Веру Владимировну за оказанную
+                                            мне помощь,
+                                            объяснила что да как, на душе стало намного легче</p>
+                                    </div>
+                                    <div class="footer-item">
+                                        <p class="data qustion">Вопрос:</p>
+                                        <p class="question">Заберут ли меня в случае общей мобилизации на войну если
+                                            я</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+
+
+            </div>
+    </section>
+
+
+    <section class="portal">
+        <div class="container">
+            <h3 class="portal__title">Юристы портала</h3>
+            <div class="portal__content">
+                <div class="left-port">
+                    <div data-aos="fade-right" class="port-item ">
+                        <img src="img/port.png" alt="">
+                        <div class="text-content-port">
+                            <p class="port-item-name"><strong>Гурьянова Вера Владимировна</strong></p>
+                            <p class="geolocational">Юрист, Самара</p>
+                            <p class="consultationlal">693 консультации</p>
+                        </div>
+                    </div>
+                    <div data-aos="fade-right" class="port-item ">
+                        <img src="img/port.png" alt="">
+                        <div class="text-content-port">
+                            <p class="port-item-name"><strong>Кущева Марина Юрьевна</strong></p>
+                            <p class="geolocational">Юрист, Самара</p>
+                            <p class="consultationlal">693 консультации</p>
+                        </div>
+                    </div>
+                    <div data-aos="fade-right" class="port-item ">
+                        <img src="img/port.png" alt="">
+                        <div class="text-content-port">
+                            <p class="port-item-name"><strong>Тарасова Марина Сергеевна</strong></p>
+                            <p class="geolocational">Юрист, Самара</p>
+                            <p class="consultationlal">693 консультации</p>
+                        </div>
+                    </div>
+                    <div data-aos="fade-right" class="port-item">
+                        <img src="img/port.png" alt="">
+                        <div class="text-content-port">
+                            <p class="port-item-name"><strong>Приходин Николай Валерьевич</strong></p>
+                            <p class="geolocational">Юрист, Самара</p>
+                            <p class="consultationlal">693 консультации</p>
+                        </div>
+                    </div>
+                    <div class="port-btn">
+                        <p class="port-btn-text"><a class="port-btn-text" href="">Все наши юристы</a> </p>
+                    </div>
+                </div>
+
+                <div class="right-port">
+                    <div class="right-post-content">
+                        <div class="header-port">
+                            <h2 class="queston-lawyer">Задать вопрос юристу</h2>
+                            <div class="header-port-btn">
+                                <div class="green-circl"></div>
+                                <p class="header-port-btn-text">Онлайн</p>
+                            </div>
+                        </div>
+                        <p class="post-text">Напишите ваш вопрос мы обязательно вам ответим</p>
+                        <form>
+                            <textarea class="textarea" name="textarea" cols="5" rows="10"
+                                placeholder="Опишите вашу проблему..."></textarea>
+                        </form>
+
+                        <div class="bar__info-flex__content portal">
+                            <div class="bar__info-oneBlock input">
+                                <p class="bar__info-num-text">Номер телефона</p>
+                                <input class="num" type="tel">
+                            </div>
+                            <div class="bar__info-oneBlock input">
+                                <p class="bar__info-num-text">Ваше имя</p>
+                                <input class="num" type="text">
+                            </div>
+                            <button class="end-port-btn">
+                                <p>Отправить</p>
+                            </button>
+                        </div>
+                        <p class="choose__us-link">Отправляя вопрос, вы соглашаетесь с условиями <a
+                                class="choose__us-link a" href="">Пользовательского соглашения</a></p>
+                        <div class="port__text-content">
+                            <div class="text-cont1">
+                                <p class="texTit">48 юристов</p>
+                                <p class="textTex">сейчас онлайн</p>
+                            </div>
+                            <div class="text-cont2">
+                                <p class="texTit">48 юристов</p>
+                                <p class="textTex">сейчас онлайн</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="search__sec">
+        <div class="container">
+            <h2 class="search__title">Темы справочных материалов</h2>
+            <div class="search__content">
+                <div class="search-supContent">
+
+                    <div class="search__item">
+                        <h3>A</h3>
+                        <p>Автокредит</p>
+                        <p>Авторское право</p>
+                        <p>Автоюрист</p>
+                        <p>Административное право</p>
+                    </div>
+                    <div class="search__item">
+                        <h3>Б</h3>
+                        <p>Банкротство</p>
+
+                    </div>
+                </div>
+
+                <div class="search-supContent">
+
+                    <div class="search__item">
+                        <h3>В</h3>
+                        <p>Военное право</p>
+                    </div>
+                    <div class="search__item">
+                        <h3>Г</h3>
+                        <p>Гражданское право</p>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="search__content">
+                <div class="search-supContent">
+
+                    <div class="search__item">
+                        <h3>Ж</h3>
+                        <p>Жилищное право</p>
+                    </div>
+                    <div class="search__item">
+                        <h3>З</h3>
+                        <p>Земельное право</p>
+                        <p>Защита прав потребителей</p>
+                    </div>
+                </div>
+                <div class="search-supContent">
+
+                    <div class="search__item">
+                        <h3>И</h3>
+                        <p>Ипотека</p>
+                        <p>Исполнительное производство</p>
+                    </div>
+                    <div class="search__item">
+                        <h3>K</h3>
+                        <p>Корпоративное право</p>
+                        <p>Кредиты</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="search__content">
+                <div class="search-supContent">
+
+                    <div class="search__item">
+                        <h3>М</h3>
+                        <p>Медицинское право</p>
+                        <p>Миграционное право</p>
+                    </div>
+                    <div class="search__item">
+                        <h3>H</h3>
+                        <p>Наследственное правонкротство</p>
+                        <p>Недвижимость</p>
+
+                    </div>
+                </div>
+                <div class="search-supContent">
+
+                    <div class="search__item">
+                        <h3>O</h3>
+                        <p>Образование</p>
+                    </div>
+                    <div class="search__item">
+                        <h3>C</h3>
+                        <p>Семейное право</p>
+                        <p>Соцобеспечение</p>
+                        <p>Судопроизводство</p>
+                    </div>
+                </div>
+            </div>
+            <div class="search__content-fot">
+                <div class="search-supContent">
+
+                    <div class="search__item-fot">
+                        <h3>T</h3>
+                        <p>Таможенное право</p>
+                        <p>Трудовое право</p>
+                    </div>
+                    <div class="search__item-fot y">
+                        <h3>У</h3>
+                        <p>Уголовное право</p>
+                    </div>
+                </div>
+                <div class="search-supConten">
+
+                    <div class="search__item-fot u">
+                        <h3>Ю</h3>
+                        <p>Юридические услуги</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="js/burger.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {});
+        AOS.init();
+    </script>
+</body>
+
+</html>
